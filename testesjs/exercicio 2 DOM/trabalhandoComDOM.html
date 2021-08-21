@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <script>
+        // executa a funcao quando a janela é carregada
+        //caso haja 2 windows.onload = funcition ele executa apenas o ultimo;
+        window.onload = function inserirH1() {
+            
+            
+         // inserindo conteudo hmtl usando js;
+         // cria um casal de elementos dentro do html vazio;
+         var cabecalho = document.createElement("h1");
+         var cabecalho_texto = document.createTextNode("Inserimos esse cabeçalho usando JS");
+         cabecalho.appendChild(cabecalho_texto);
+         document.body.appendChild(cabecalho);
+        
+
+
+	    // Localiza o elemento com id "id_p"
+	    var p = document.getElementById('id_p');
+		// configura a propriedade backgroundColor do elemento
+	    p.style.backgroundColor='red';
+        }
+
+    </script>
+  </head>
+  <body>
+      <p id="id_p">teste</p>
+  </body>
+</html>
+
+
+
+
+
+
