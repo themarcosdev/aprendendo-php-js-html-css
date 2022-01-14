@@ -1,4 +1,3 @@
-//https://docs.google.com/document/d/166xiFRbzzZ4cHBFDA54HXCWRlVjnWYHKd8xMlMLknts/edit#
 
 SOBRE O MéT. POST NO PHP
 Estamos utilizando o método post, para o envio dos dados para a página php. Pode utilizar o GET, porém, o método POST é mais seguro no envio das informações, já que o método GET passa os valores dos campos como parâmetros pela URL.
